@@ -1,2 +1,2 @@
 # project_euler
-My solutions for the Project Euler tasks
+My solutions for the [Project Euler](https://projecteuler.net/) tasks
