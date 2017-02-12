@@ -1,8 +1,10 @@
+// struct to hold current and next fib nr
 struct Fibonacci {
     current: u32,
     next: u32,
 }
 
+// sequence generator
 fn fibonacci() -> Fibonacci {
     Fibonacci {
         current: 1,
