@@ -1,6 +1,6 @@
 # Project Euler - Implemented in Rust
 
-[![Project Euler](https://projecteuler.net/profile/skugga87.png)](https://projecteuler.net/)
+[![Project Euler](https://projecteuler.net/profile/amenne.png)](https://projecteuler.net/)
 
 My solutions for the [Project Euler](https://projecteuler.net/) tasks.
 
