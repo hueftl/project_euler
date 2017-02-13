@@ -1,5 +1,5 @@
 # Project Euler - Implemented in Rust
-![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nextgenerationgeek/project_euler/blob/master/LICENSE)
 
 [![Project Euler](https://projecteuler.net/profile/amenne.png)](https://projecteuler.net/)
 
