@@ -5,6 +5,6 @@
 
 My solutions for the [Project Euler](https://projecteuler.net/) tasks.
 
-Just run ```cargo run --bin pXXX```, where XXX is the specific Euler-Problem.
+Just run ```cargo run --bin pXXX```, where XXX is the specific Euler-Problem (e. g. ```001```).
 
 This repository is under active development.
