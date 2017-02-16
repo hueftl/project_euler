@@ -29,8 +29,5 @@ fn main() {
         sum += i;
     }
 
-    //let test  = fibonacci()
-    //    .filter(|f| f % 2 == 0) // even elements
-    //    .take_while(|&v| v <= 4_000_000u32);
     println!("The sum of all even Fibonacci elements with value below 4.000.000 equals to: {}", sum);
 }
