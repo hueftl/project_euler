@@ -6,13 +6,16 @@ struct Fibonacci {
 impl Iterator for Fibonacci {
     type Item = u32;
     fn next(&mut self) -> Option<u32> {
-        let temp = self.current +self.next;
+        let temp = self.current + self.next;
         self.current = self.next;
         self.next = temp;
+
+        // Some is always returned
         Some(self.current)
     }
 }
 
+// sequence generator
 fn fibonacci() -> Fibonacci {
     Fibonacci {
         current: 1,
@@ -21,10 +24,13 @@ fn fibonacci() -> Fibonacci {
 }
 
 fn main() {
-    //TODO print sum
-    //let sum = fibonacci()
+    let mut sum:u32 = 0;
+    for i in fibonacci().filter(|&x| x % 2 == 0).take_while(|&x| x < 4_000_000) {
+        sum += i;
+    }
+
+    //let test  = fibonacci()
     //    .filter(|f| f % 2 == 0) // even elements
-    //    .take_while(|n| n <= &bla) // below 4 mil
-    //    .sum();
+    //    .take_while(|&v| v <= 4_000_000u32);
     println!("The sum of all even Fibonacci elements with value below 4.000.000 equals to: {}", sum);
 }
