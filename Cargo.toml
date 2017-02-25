@@ -5,6 +5,3 @@ license = "MIT"
 keywords = ["algebra", "algorithms", "mathematics"]
 repository = "https://github.com/nextgenerationgeek/project_euler"
 version = "0.1.0"
-
-[dependencies]
-
