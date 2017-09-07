@@ -26,8 +26,8 @@ fn fibonacci() -> Fibonacci {
 fn main() {
     let mut sum:u32 = 0;
     for i in fibonacci().filter(|&x| x % 2 == 0).take_while(|&x| x < 4_000_000) {
-        sum += i;
+        sum += i
     }
 
-    println!("The sum of all even Fibonacci elements with value below 4.000.000 equals to: {}", sum);
+    println!("The sum of all even Fibonacci elements with value below 4.000.000 equals to: {}", sum)
 }
