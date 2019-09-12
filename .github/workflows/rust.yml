@@ -1,0 +1,17 @@
+name: Rust
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Build
+      run: cargo build --verbose
+    - name: Run
+      run: cargo run --bin p001
+      run: cargo run --bin p002
+      run: cargo run --bin p003
