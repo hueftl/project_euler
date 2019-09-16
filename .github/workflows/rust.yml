@@ -13,5 +13,3 @@ jobs:
       run: cargo build --verbose
     - name: Run
       run: cargo run --bin p001
-      run: cargo run --bin p002
-      run: cargo run --bin p003

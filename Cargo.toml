@@ -1,6 +1,6 @@
 [package]
 name = "project_euler"
-authors = ["Alexander Menne <alexander.menne@nextgenerationgeek.de>"]
+authors = ["Alexander Menne <alexander.menne@amenne.de>"]
 license = "MIT"
 keywords = ["algebra", "algorithms", "mathematics"]
 repository = "https://github.com/nextgenerationgeek/project_euler"
